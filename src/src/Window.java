@@ -9,12 +9,12 @@ public class Window {
     }
 
     int getAreaCm2() {
-       return widthCm * heightCm;
+        return widthCm * heightCm;
     }
 
-public String toString() {
+    public String toString() {
         return "Window is " + getAreaCm2() + "cm2 in total";
-}
+    }
 
 
 }

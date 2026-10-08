@@ -10,8 +10,8 @@ public class Building {
         this.rooms = new ArrayList<>();
     }
 
-    void addRoom(Room room) {
-        rooms.add(room);
+    static void addRoom(Room room) {
+        Rooms.add(room);  // Hvorfor virker det ikke....
     }
 
     int getTotalLampCount() {
@@ -34,7 +34,7 @@ public class Building {
     }
 
     void printBuilding() {           //Printer alle rum med deres lamper og vinduer
-        "T
+        // Skal spørges ind til
     }
 
 
