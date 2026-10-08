@@ -22,5 +22,7 @@ Window window1 = new Window(120, 90);
 
        Building.addRoom(room1);    //Tilføjer rum til bygningen
 
+        room1.printRoom();
+
     }
 }
